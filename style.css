@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: black;
+}
+header {
+	width: 100%;
+	margin-bottom: 20px;
+}
+header img {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+#theteams {
+	color: #aa966e;
+	text-align: center;
+	font-family: arial;
+}
+
+.container{
+	width: 920px;
+	margin: auto;
+	height: 100%;
+}
+.allContainer {
+	float: left;	
+}
+
+.eliminate {
+	margin: auto;
+	text-align: center;
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 5px;
+	width: 200px;
+	
+}
+
+.teams{
+	height: 275px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	float: left;
+}
+
+
+.teamLogo{
+	height: 200px;
+	width: 200px;
+	background-color: white; 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	outline: 2px solid black;
+    border: 3px solid #aa966e;
+    padding: 5px;
+}
+
+.teamName{
+	float: left;
+	overflow: hidden;
+	width: 200px;
+	color: white;
+}
+
+.teamList{
+	list-style-type: none;
+}
+
+.teamName h2 {
+	text-align: center;
+}
+.indTeamContainer {
+	color: white;
+}
+
+.indTeamContainer h1 {
+	text-align: center;
+	color: #aa966e;
+}
+
+.indTeamContainer h2 {
+	text-align: center;
+}
+.greyed {
+	opacity: .2;
+}

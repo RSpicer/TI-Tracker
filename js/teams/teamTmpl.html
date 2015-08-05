@@ -1,0 +1,11 @@
+<div class="indTeamContainer">
+	<h1>{{teamData.name}}</h1>
+	<h2>{{teamData.wins}} - {{teamData.losses}}</h2>
+	<div class="players">
+		<ul>
+			<li class="teamList" ng-repeat="players in teamData.players">
+				<h3>{{players}}</h3>
+			</li>
+		</ul>
+	</div>
+</div>

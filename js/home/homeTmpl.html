@@ -1,0 +1,15 @@
+<h1 id="theteams">THE TEAMS</h1>
+<div class="allContainer" ng-repeat="team in teamsList">
+<div class="teamContainer" ng-class="{true:'', false:'greyed'}[team.isAlive]">
+	<a ng-href="/#/teams/{{team.path}}">
+		<div class="teams">
+			<div class="teamLogo" ng-style="{ 'background-image': 'url(resources/teamImages/' + team.path + '.png' }">
+			</div>
+			<div class="teamName">
+				<h2>{{team.name}}</h2>
+			</div>
+		</div>
+	</a>
+</div>
+	<elim-directive></elim-directive>
+</div>
