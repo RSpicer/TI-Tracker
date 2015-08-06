@@ -40,7 +40,12 @@ header img {
 	margin-bottom: 20px;
 	margin-top: 5px;
 	width: 200px;
-	
+	background: rgb(202, 60, 60);
+	color: white;
+	border: 0px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+
 }
 
 .teams{
